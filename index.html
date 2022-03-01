@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor</title>
+
+    <!--CSS Styles-->
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <!--SCRIPTS-->
+    <script src="https://kit.fontawesome.com/50a6504411.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/js/main.js"></script>
+
+</head>
+<body>
+    <!--CONTAINER APP-->
+    <main class="container">
+
+        <!--PLAYER-->
+        <div class="player">
+
+            <!--IMAGE-->
+            <div class="image-container">
+                <img src="img/WithinTemp.png" alt="Within Temptation The Purge">
+            </div>
+
+            <!--TITLE-->
+            <div class="info">
+                <h1 class="title">The Purge</h1>
+                <div class="artist">Within Temptation</div>
+            </div>
+
+            <!--PROGRESS CONTAINER-->
+            <div class="progress-container">
+                <!--TIME PROGRESS-->
+                <div class="time-progress"><span>0:00</span><span>3:20</span></div>
+                <!--PROGRESS BAR-->
+                <div class="progress">
+                    <div class="bar"></div>
+                </div>
+            </div>
+
+            <!--CONTROLS-->
+            <section class="controls">
+                <button class="prev">
+                    <i class="fa-solid fa-backward-step" id="button-prev"></i>
+                </button>
+                <button class="play">
+                    <i class="fa-solid fa-play" id="button-play"></i>
+                </button>
+                <button class="next">
+                    <i class="fa-solid fa-backward-step" id="button-next"></i>
+                </button>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
