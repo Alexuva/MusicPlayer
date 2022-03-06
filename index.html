@@ -11,7 +11,7 @@
 
     <!--SCRIPTS-->
     <script src="https://kit.fontawesome.com/50a6504411.js" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="/js/main.js"></script>
+    <script type="text/javascript" src="js/main.js" defer></script>
 
 </head>
 <body>
@@ -32,13 +32,16 @@
                 <div class="artist">Within Temptation</div>
             </div>
 
+            <!--SONG-->
+            <audio src="audio/Whispered Promises.mp3" id="music-player" class="pause" preload="metadata"></audio>
+
             <!--PROGRESS CONTAINER-->
             <div class="progress-container">
                 <!--TIME PROGRESS-->
-                <div class="time-progress"><span>0:00</span><span>3:20</span></div>
+                <div class="time-progress"><span id="currentTime"></span><span id="duration"></span></div>
                 <!--PROGRESS BAR-->
                 <div class="progress">
-                    <div class="bar"></div>
+                    <input type="range" value="0" class="bar">
                 </div>
             </div>
 
