@@ -188,6 +188,7 @@ body{
 
         .controls .prev:hover #button-prev{
             color:#8F3985;
+            cursor: pointer;
         }
 
             #button-prev{
@@ -219,6 +220,7 @@ body{
 
         .controls .play:hover #button-play{
             color:#8F3985;
+            cursor: pointer;
         }
 
             #button-play{
@@ -251,6 +253,7 @@ body{
 
         .controls .next:hover #button-next{
             color:#8F3985;
+            cursor: pointer;
         }
 
 
